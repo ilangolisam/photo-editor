@@ -173,10 +173,10 @@
                     <rect key="frame" x="0.0" y="607" width="375" height="60"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="ZRl-89-gRO">
-                            <rect key="frame" x="12" y="0.0" width="151.5" height="52"/>
+                            <rect key="frame" x="12" y="0.0" width="150" height="52"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mW4-Jz-sic">
-                                    <rect key="frame" x="0.0" y="0.0" width="40.5" height="52"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="40" height="52"/>
                                     <fontDescription key="fontDescription" name="icomoon" family="icomoon" pointSize="25"/>
                                     <size key="titleShadowOffset" width="1" height="0.0"/>
                                     <state key="normal" title="">
@@ -188,7 +188,7 @@
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zlw-H0-WcJ">
-                                    <rect key="frame" x="55.5" y="0.0" width="40.5" height="52"/>
+                                    <rect key="frame" x="55" y="0.0" width="40" height="52"/>
                                     <fontDescription key="fontDescription" name="icomoon" family="icomoon" pointSize="25"/>
                                     <size key="titleShadowOffset" width="1" height="0.0"/>
                                     <state key="normal" title="">
@@ -200,11 +200,13 @@
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kpe-Ez-Cio">
-                                    <rect key="frame" x="111" y="0.0" width="40.5" height="52"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                    <rect key="frame" x="110" y="0.0" width="40" height="52"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <color key="tintColor" systemColor="secondarySystemBackgroundColor"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     <size key="titleShadowOffset" width="1" height="0.0"/>
-                                    <state key="normal" title="" image="clear.fill" catalog="system"/>
+                                    <state key="normal" title="Clear"/>
+                                    <state key="highlighted" title="Clear"/>
                                     <connections>
                                         <action selector="clearButtonTapped:" destination="-1" eventType="touchUpInside" id="gXm-sD-poT"/>
                                     </connections>
@@ -327,7 +329,6 @@
         </view>
     </objects>
     <resources>
-        <image name="clear.fill" catalog="system" width="128" height="114"/>
         <systemColor name="secondarySystemBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
